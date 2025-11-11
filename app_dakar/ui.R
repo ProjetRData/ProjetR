@@ -40,7 +40,7 @@ ui <- fluidPage(
         
         tabPanel("À propos",
                  h4("Projet : Analyse des facteurs influençant le loyer à Dakar"),
-                 p("Application développée dans le cadre du projet R - Groupe X"),
+                 p("Application développée dans le cadre du projet R"),
                  p("Cette application permet d’explorer les relations entre les caractéristiques des logements et le loyer."),
                  br(),
                  tags$ul(
@@ -49,10 +49,11 @@ ui <- fluidPage(
                    tags$li("Modélisation et prédiction du loyer"),
                  ),
                  br(),
-                 p("© 2025 - Université de ... / Groupe X"))
+                 p("© 2025 - Université de Montpellier"))
       )
     )
   )
 )
+
 
 
